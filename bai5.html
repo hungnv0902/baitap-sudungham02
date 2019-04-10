@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        function numbermin() {
+            let a = parseInt(prompt("Nhap so a"));
+            let b = parseInt(prompt("Nhap so a"));
+            let c = parseInt(prompt("Nhap so a"));
+            if (a < b) {
+                if (a < c) {
+                    alert("so nha nhat la " + a)
+                } else {
+                    alert("So nho nhat la " + c)
+                }
+            } else if (b < c) {
+                alert("So nho nhat la " + b)
+            } else {
+                alert("So nho nhat la " + c)
+            }
+
+
+        }
+        numbermin()
+    </script>
+</body>
+</html>

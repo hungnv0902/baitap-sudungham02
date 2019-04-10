@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="checknumber()">
+    <script>
+        let a = prompt("Nhap chuoi");
+        function checknumber() {
+            let number = ["1","2","3","4","5","6","7","8","9","0"];
+            console.log()
+            for (let i = 0; i < a.length; i++) {
+                if(number.indexOf(a[i]) === -1) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        alert(checknumber());
+    </script>
+</body>
+</html>
